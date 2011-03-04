@@ -1,7 +1,7 @@
 {
   "name": "维基日刊",
   "description": "维基日刊是将中文维基百科的优秀内容，每日汇集成册，递送给大家；也希望大家能闲暇时再奉献自己的所知于维基百科。",
-  "version": "1.0",
+  "version": "1.1",
   "app": {
     "launch": {
       "local_path": "main.html"
