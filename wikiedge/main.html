@@ -5,6 +5,8 @@
 	<meta http-equiv="Content-Language" content="UTF-8" />
 <script language="javascript">
 var d=new Date();
+var h=d.getUTCHours()-12;
+d.setUTCHours(h);
 var day=d.getUTCDate();
 var month=d.getUTCMonth() + 1;
 var year=d.getUTCFullYear();
