@@ -7,9 +7,9 @@
 var d=new Date();
 var h=d.getUTCHours()-12;
 d.setUTCHours(h);
-var day=d.getUTCDate();
-var month=d.getUTCMonth() + 1;
-var year=d.getUTCFullYear();
+var day=d.getDate();
+var month=d.getMonth() + 1;
+var year=d.getFullYear();
 today=year + "/" + month + "/" + day;
 url="http://wikiedge.org/issues/" + today;
 location.replace(url);
